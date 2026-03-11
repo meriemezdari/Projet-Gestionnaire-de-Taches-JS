@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Planning de recettes</title>
+    <meta charset="UTF-8" />
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>PLANNING DE RECETTES DE LA SEMAINE</h1>
+
+    <form id="formulaire">
+        <div class="champs_a_renseigner">
+            <select id="recetteDuJour" required>
+                <option value="">Choisir un jour</option>
+                <option>Lundi</option>
+                <option>Mardi</option>
+                <option>Mercredi</option>
+                <option>Jeudi</option>
+                <option>Vendredi</option>
+                <option>Samedi</option>
+                <option>Dimanche</option>
+            </select>
+
+            <input type="text" id="titreRecette" placeholder="Nom de la recette" required>
+
+            <textarea id="recetteIngrédients" placeholder="Ingrédients"></textarea>
+        </div>
+
+        <button type="submit">Ajouter</button>
+    </form>
+
+
+    <div class="planning">
+
+        <div class="colonneJour" id="Lundi">
+            <h2>Lundi</h2>
+            <div class="recette">
+                <p>🇹🇳 Macarouna Sanssa : pâtes, ail, tomate concentrée, harissa, laurier, épices</p>
+            </div>
+        </div>
+
+        <div class="colonneJour" id="Mardi">
+            <h2>Mardi</h2>
+        </div>
+
+        <div class="colonneJour" id="Mercredi">
+            <h2>Mercredi</h2>
+        </div>
+
+        <div class="colonneJour" id="Jeudi">
+            <h2>Jeudi</h2>
+        </div>
+
+        <div class="colonneJour" id="Vendredi">
+            <h2>Vendredi</h2>
+            <div class="recette">
+                <p>🇲🇦 Tajine Poulet Olives : oignon, olive, poulet, citron confit, épices</p>
+            </div>
+        </div>
+
+        <div class="colonneJour" id="Samedi">
+            <h2>Samedi</h2>
+        </div>
+
+        <div class="colonneJour" id="Dimanche">
+            <h2>Dimanche</h2>
+        </div>
+
+    </div>
+</body>
+
+</html>
