@@ -4,6 +4,8 @@
 
 **Projet réalisé en collaboration avec :** Nosayba EL JEBLI
 
+Vous pouvez tester l'application en ligne ici : [Planning de recettes](https://meriemezdari.github.io/Projet-Gestionnaire-de-Taches-JS/)
+
 ---
 
 ## 1. Objectif du projet
